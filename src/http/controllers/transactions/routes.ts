@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify'
-import { verifyJWT } from '@/http/middlewares/verify-jwt'
+import { verifyJWT } from '../../../http/middlewares/verify-jwt'
 
 import { create } from './create'
 import { deleteTransaction } from './delete'
